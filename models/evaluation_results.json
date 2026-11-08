@@ -1,0 +1,87 @@
+{
+  "dataset": "Simulated educational build data (not production data)",
+  "test_records": 100,
+  "best_model": "Logistic Regression",
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.62,
+      "precision": 0.64,
+      "recall": 0.6153846153846154,
+      "f1_score": 0.6274509803921569,
+      "classification_report": {
+        "Success": {
+          "precision": 0.6,
+          "recall": 0.625,
+          "f1-score": 0.6122448979591837,
+          "support": 48.0
+        },
+        "Failure": {
+          "precision": 0.64,
+          "recall": 0.6153846153846154,
+          "f1-score": 0.6274509803921569,
+          "support": 52.0
+        },
+        "accuracy": 0.62,
+        "macro avg": {
+          "precision": 0.62,
+          "recall": 0.6201923076923077,
+          "f1-score": 0.6198479391756703,
+          "support": 100.0
+        },
+        "weighted avg": {
+          "precision": 0.6208,
+          "recall": 0.62,
+          "f1-score": 0.6201520608243297,
+          "support": 100.0
+        }
+      }
+    },
+    "Random Forest": {
+      "accuracy": 0.56,
+      "precision": 0.5833333333333334,
+      "recall": 0.5384615384615384,
+      "f1_score": 0.56,
+      "classification_report": {
+        "Success": {
+          "precision": 0.5384615384615384,
+          "recall": 0.5833333333333334,
+          "f1-score": 0.56,
+          "support": 48.0
+        },
+        "Failure": {
+          "precision": 0.5833333333333334,
+          "recall": 0.5384615384615384,
+          "f1-score": 0.56,
+          "support": 52.0
+        },
+        "accuracy": 0.56,
+        "macro avg": {
+          "precision": 0.5608974358974359,
+          "recall": 0.5608974358974359,
+          "f1-score": 0.56,
+          "support": 100.0
+        },
+        "weighted avg": {
+          "precision": 0.5617948717948719,
+          "recall": 0.56,
+          "f1-score": 0.56,
+          "support": 100.0
+        }
+      }
+    }
+  },
+  "confusion_matrix": [
+    [
+      30,
+      18
+    ],
+    [
+      20,
+      32
+    ]
+  ],
+  "labels": [
+    "Success",
+    "Failure"
+  ]
+}
